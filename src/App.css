@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+/*adjusts components in the app portion in App.js*/
+.app{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+/*adjusts components in the header portion in App.js*/
+.app__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+/*adjusts components in the stats portion in App.js*/
+.app_stats{
+  display:flex;
+  justify-content: space-between;
+}
+
+/*changes the entire background color of the screen*/
+body{
+  background-color: rgb(255, 179, 155);
+}
+
+/*gives max-width and sets flex direction to column*/
+@media (max-width: 990px)
+{
+  .app
+  {
+    flex-direction: column
+  }
+}
+
+.app_left{
+  flex: 0.9;
+}
